@@ -1,0 +1,13 @@
+[{
+    "tit": "活动频道",
+    "icon": "./images/icon1.jpg"
+}, {
+    "tit": "小米闪购",
+    "icon": "./images/icon2.jpg"
+}, {
+    "tit": "好友拼团",
+    "icon": "./images/icon3.jpg"
+}, {
+    "tit": "小米分期",
+    "icon": "./images/icon4.jpg"
+}]

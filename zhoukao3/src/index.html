@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./lib/swiper.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="./page/search.html"><i class="iconfont">&#xe729;</i><input type="text" placeholder="小米 MIX 2S"></a>
+        <i class="iconfont">&#xe60e;</i>
+    </header>
+    <section>
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/banner.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/banner.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/banner.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="icon" id="#icon_tpl">
+            <dl>
+                <dt><img src="./images/icon1.jpg" alt=""></dt>
+                <dd>活动频道</dd>
+            </dl>
+            <dl>
+                <dt><img src="./images/icon2.jpg" alt=""></dt>
+                <dd>小米闪购</dd>
+            </dl>
+            <dl>
+                <dt><img src="./images/icon3.jpg" alt=""></dt>
+                <dd>好友拼团</dd>
+            </dl>
+            <dl>
+                <dt><img src="./images/icon4.jpg" alt=""></dt>
+                <dd>小米分期</dd>
+            </dl>
+        </div>
+        <div class="qita">
+            <dl class="left">
+                <dt><img src="./images/img1.jpg" alt=""></dt>
+                <dd>
+                    <p>小米之家北京五彩城店</p>
+                    <span>距离3.79公里</span>
+                </dd>
+            </dl>
+            <div class="right">其他零售店 》</div>
+        </div>
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/banner2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/banner2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/banner2.jpg" alt=""></div>
+            </div>
+        </div>
+        <h2>商城早报</h2>
+        <div class="new">
+            <img src="./images/pic1.jpg" alt="">
+            <img src="./images/pic2.jpg" alt="">
+            <img src="./images/pic3.jpg" alt="">
+            <img src="./images/pic1.jpg" alt="">
+        </div>
+        <div class="new">
+            <img src="./images/pic1.jpg" alt="">
+            <img src="./images/pic2.jpg" alt="">
+            <img src="./images/pic3.jpg" alt="">
+            <img src="./images/pic1.jpg" alt="">
+        </div>
+    </section>
+    <footer>
+        <p><i class="iconfont">&#xe648;</i><span>首页</span></p>
+        <p><i class="iconfont">&#xe649;</i><span>分类</span></p>
+        <p><i class="iconfont">&#xe715;</i><span>发现</span></p>
+        <p><i class="iconfont">&#xe63c;</i><span>购物车</span></p>
+        <p><i class="iconfont">&#xe6cc;</i><span>我的</span></p>
+    </footer>
+</body>
+<script src="./lib/require.js" data-main="main"></script>
+<script src="./lib/swiper.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: 1000
+    });
+</script>
+
+</html>
